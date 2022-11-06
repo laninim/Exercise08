@@ -9,11 +9,22 @@ import java.util.Objects;
 public class Smartphone implements Cloneable{
     @Getter
     @Setter
-
     private String brandName;
+
+    @Getter
+    @Setter
     private String modelName;
+
+    @Getter
+    @Setter
     private int batterymAh;
+
+    @Getter
+    @Setter
     private SmartPhonePrice producerPrice;
+
+    @Getter
+    @Setter
     private SmartPhonePrice retailPrice;
 
     public Smartphone(String brandName,String modelName,int batterymAh, SmartPhonePrice producer, SmartPhonePrice retail){

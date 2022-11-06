@@ -20,6 +20,8 @@ public class Test {
             System.out.println("Smartphone product, not equals");
         }
 
+
+
         Smartphone cloneSmartphone = null;
 
         try{
